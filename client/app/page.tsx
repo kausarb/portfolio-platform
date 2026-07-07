@@ -1,7 +1,0 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>Portfolio Page</h1>
-    </main>
-  );
-}
