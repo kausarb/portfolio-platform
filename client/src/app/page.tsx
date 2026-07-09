@@ -1,10 +1,13 @@
-import MainLayout from '../components/layout/MainLayout';
-import Hero from '../components/sections/Hero';
+import HeroSection from '../components/home/HeroSection';
+import HowItWorks from '../components/home/HowItWorks';
+import StatsSection from '../components/home/StatsSection';
 
 export default function HomePage() {
   return (
-    <MainLayout>
-      <Hero />
-    </MainLayout>
+    <>
+      <HeroSection />
+      <StatsSection />
+      <HowItWorks />
+    </>
   );
 }

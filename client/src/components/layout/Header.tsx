@@ -25,7 +25,7 @@ export default function Header() {
   return (
     <>
       <AppBar position='sticky' color='inherit' elevation={1}>
-        <Toolbar sx={{ px: 4 }}>
+        <Toolbar sx={{ px: { xs: 2, md: 4 } }}>
           {/* Mobile Menu */}
           <IconButton
             edge='start'
